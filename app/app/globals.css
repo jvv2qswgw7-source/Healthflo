@@ -1,0 +1,17 @@
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+body { margin: 0; background: #f6f7f8; color: #111; }
+a { color: inherit; }
+.card { background: white; border-radius: 14px; padding: 16px; box-shadow: 0 6px 20px rgba(0,0,0,0.06); margin-bottom: 14px; }
+.h1 { font-size: 34px; margin: 10px 0 6px; }
+.sub { opacity: 0.8; margin: 0 0 12px; }
+.btnRow { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  background: #0b5;
+  color: white;
+  font-weight: 700;
+}
+.btn.secondary { background: #222; }
