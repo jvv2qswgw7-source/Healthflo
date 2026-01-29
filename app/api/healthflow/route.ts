@@ -95,7 +95,7 @@ async function callModel(userContext: string) {
       { role: "user", content: userContext }
     ],
     max_output_tokens: 1100,
-    response_format: { type: "json_object" }
+    
   });
 }
 
